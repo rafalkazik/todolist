@@ -23,26 +23,26 @@ body {
 
 header {
   font-size: 1.5rem;
-  margin: 25px 0 25px 0;
+  margin: 30px 0 30px 0;
 }
 
 h1 {
   font-weight: 800;
   color: white;
   filter: drop-shadow(0px 3px 0px #899fff) drop-shadow(0px 4px 0px #9260c4);
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
   cursor: pointer;
 }
 h1:hover {
   color: #fff;
-  filter: drop-shadow(2px 6px 0px #899fff) drop-shadow(3px 9px 0px #9260c4);
+  filter: drop-shadow(-4px 6px 0px #899fff) drop-shadow(7px 6px 0px #9260c4);
 }
 
 .container {
   display: flex;
   flex-direction: column;
   width: 80vw;
-  max-width: 768px;
+  max-width: 500px;
 }
 .container_add {
   display: flex;
@@ -79,6 +79,12 @@ form {
   border-radius: 3px;
   font-size: 1.2rem;
   filter: drop-shadow(2px 2px 3px #cecece);
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.btn_add:hover {
+  background: #8459af;
 }
 
 h2 {
@@ -125,6 +131,12 @@ ul {
   border-radius: 3px;
   font-size: 1.2rem;
   filter: drop-shadow(2px 2px 3px #cecece);
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.btn_delete:hover {
+  background: #f36c6c;
 }
 
 .btn_done {
@@ -139,6 +151,12 @@ ul {
   border-radius: 3px;
   font-size: 1.2rem;
   filter: drop-shadow(2px 2px 3px #cecece);
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.btn_done:hover {
+  background: #23b460;
 }
 
 button > i {
